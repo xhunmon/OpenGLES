@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickPoint"
+            android:padding="10dp"
+            android:text="point"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLine"
+            android:padding="10dp"
+            android:text="line"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickTriangle"
+            android:padding="10dp"
+            android:text="triangle"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickQuadrangle"
+            android:padding="10dp"
+            android:text="quadrangle"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickMatrix"
+            android:padding="10dp"
+            android:text="matrix"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickImageTexture"
+            android:padding="10dp"
+            android:text="ImageTexture"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickCameraxGL"
+            android:padding="10dp"
+            android:text="CameraxGL"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickFboRender"
+            android:padding="10dp"
+            android:text="FboRender"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#888" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickCameraxApi"
+            android:padding="10dp"
+            android:text="camerax-api"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
